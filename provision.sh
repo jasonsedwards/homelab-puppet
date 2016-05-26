@@ -9,7 +9,7 @@ sudo yum -y install puppet
 /usr/bin/rm -rf /etc/puppet/
 
 mkdir -p /etc/facter/facts.d/
-echo "leadx_role=$role" > /etc/facter/facts.d/role.txt
+echo "role=$role" > /etc/facter/facts.d/role.txt
 
 cat <<'EOF' > /root/.ssh/config
 Host github.com
