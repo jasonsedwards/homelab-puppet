@@ -1,0 +1,4 @@
+---
+ssh::server_options:
+  Protocol: '2'
+  PrintMotd: 'yes'

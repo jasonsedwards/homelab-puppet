@@ -1,0 +1,8 @@
+---
+:backends:
+  - yaml
+:hierarchy:
+  - "%{::role}"
+  - common
+:yaml:
+  :datadir: '/etc/puppet/hieradata'
