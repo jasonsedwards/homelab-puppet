@@ -1,4 +1,5 @@
 ---
+ssh::storeconfigs_enabled: 'false'
 ssh::server_options:
   Protocol: '2'
   PrintMotd: 'yes'
