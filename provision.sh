@@ -3,8 +3,8 @@ role=$1
 
 sudo yum -y install epel-release
 sudo yum -y install ruby
-sudo rpm -ivh https://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm
-sudo yum -y install puppet-agent
+sudo rpm -ivh https://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm
+sudo yum -y install puppet
 
 /usr/bin/rm -rf /etc/puppet/
 
