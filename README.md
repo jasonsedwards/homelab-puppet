@@ -7,8 +7,8 @@ Masterless puppet code to manage my homelab environment.
 
 ## Available roles
 The puppet system has the following roles which can be used by
-**privision.sh**:
+**provision.sh**:
 - management
 
 ## Help
-Checkout the [Github](https://github.com) [SSH Tutorial](https://help.github.com/articles/generating-an-ssh-key/) to create a public/private keypair for use with Github.
+Checkout the [GitHub SSH Tutorial](https://help.github.com/articles/generating-an-ssh-key/) to create a public/private keypair for use with Github.
